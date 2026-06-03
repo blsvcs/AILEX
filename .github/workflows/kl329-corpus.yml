@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'data/incoming/Anonimizets_nolemumi_030626.zip'
+      - 'data/Anonimizets_nolemumi_030626.zip'
       - 'scripts/extract_corpus_server.py'
       - '.github/workflows/kl329-corpus.yml'
 
@@ -28,11 +28,11 @@ jobs:
 
       - name: Check input ZIP exists
         run: |
-          test -f data/incoming/Anonimizets_nolemumi_030626.zip
+          test -f data/Anonimizets_nolemumi_030626.zip
 
       - name: Run KL329 corpus extractor
         run: |
-          python scripts/extract_corpus_server.py data/incoming/Anonimizets_nolemumi_030626.zip output
+          python scripts/extract_corpus_server.py data/Anonimizets_nolemumi_030626.zip output
 
       - name: Show summary
         run: |
