@@ -1,0 +1,1 @@
+Analizē lietu no aizstāvības perspektīvas. Identificē sastāva elementus, pierādījumu vājās vietas, procesuālos pārkāpumus, veiksmīgus argumentus līdzīgās lietās un izstrādā prioritizētu aizstāvības stratēģiju.
