@@ -1,0 +1,46 @@
+name: KL329 Corpus Extraction
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/incoming/Anonimizets_nolemumi_030626.zip'
+      - 'scripts/extract_corpus_server.py'
+      - '.github/workflows/kl329-corpus.yml'
+
+jobs:
+  extract-corpus:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pypdf python-docx
+
+      - name: Check input ZIP exists
+        run: |
+          test -f data/incoming/Anonimizets_nolemumi_030626.zip
+
+      - name: Run KL329 corpus extractor
+        run: |
+          python scripts/extract_corpus_server.py data/incoming/Anonimizets_nolemumi_030626.zip output
+
+      - name: Show summary
+        run: |
+          cat output/corpus_summary.json
+
+      - name: Upload corpus artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kl329-corpus-output
+          path: output/
+          retention-days: 30
