@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-06-03T12:27:05Z",
+  "database": "/mnt/data/kl329_cloud_database/lexu_kl329_pilot.sqlite",
+  "tables": {
+    "analytics_counts": 65,
+    "case_forensic_tools": 1,
+    "case_systems": 139,
+    "case_terms": 2359,
+    "cases": 45,
+    "communication_channels": 110,
+    "controlled_terms": 138,
+    "defence_arguments": 211,
+    "devices": 40,
+    "document_texts": 54,
+    "documents": 54,
+    "evidence_items": 260,
+    "forensic_tools": 6,
+    "information_systems": 11,
+    "institution_case_roles": 249,
+    "institutions": 10,
+    "legal_articles": 1,
+    "legal_findings": 10,
+    "official_positions": 2,
+    "ontology_edges": 62,
+    "ontology_nodes": 62,
+    "persons": 19,
+    "schema_versions": 1,
+    "supplementary_materials": 3,
+    "text_chunks": 498
+  },
+  "views": [
+    "v_case_overview",
+    "v_defence_argument_results",
+    "v_top_evidence",
+    "v_top_information_sources",
+    "v_top_institutions"
+  ],
+  "fts_tables": [
+    "document_texts_fts",
+    "text_chunks_fts"
+  ],
+  "source_files": {
+    "mapping": "/mnt/data/kl329_case_ontology/KL329_case_ontology_mapping.csv",
+    "ontology_nodes": "/mnt/data/kl329_ontology/KL329_ontology_nodes.csv",
+    "ontology_edges": "/mnt/data/kl329_ontology/KL329_ontology_edges.csv",
+    "texts_dir": "/mnt/data/kl329_project/texts"
+  }
+}

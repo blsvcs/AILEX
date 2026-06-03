@@ -1,0 +1,63 @@
+﻿source,relation,target,explanation,strength,source_basis
+EL_OBJECT,has_subtype,IT_TAXPAYER,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_CRIMPROC,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_CONVICTIONS,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_PERSONAL_DATA,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_PRIVATE_LIFE,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_CASE_MATERIALS,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_COURT_RULINGS,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_VEHICLE_OWNER,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_BORDER_CUSTOMS,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_OPERATIONAL,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_CONTROL_PLAN,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+EL_OBJECT,has_subtype,IT_PROCUREMENT,"Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",core,Senāta apkopojums
+LC_KL329,has_element,EL_SUBJECT,KL 329 sastāva pamatelements.,core,
+LC_KL329,has_element,EL_OBJECT,KL 329 sastāva pamatelements.,core,
+LC_KL329,has_element,EL_ACT,KL 329 sastāva pamatelements.,core,
+LC_KL329,has_element,EL_FORMAL,KL 329 sastāva pamatelements.,core,
+LC_KL329,has_element,EL_MENSREA,KL 329 sastāva pamatelements.,core,
+EL_SUBJECT,proven_by,EV_DUTY_DOCS,"Subjekta statuss, brīdinājums un atbildība par ziņu glabāšanu parasti tiek pierādīta ar amata un iekšējiem dokumentiem.",core,
+EL_SUBJECT,proven_by,EV_LEGAL_REGIME,"Subjekta statuss, brīdinājums un atbildība par ziņu glabāšanu parasti tiek pierādīta ar amata un iekšējiem dokumentiem.",core,
+EL_OBJECT,proven_by,EV_LEGAL_REGIME,"Informācijas aizsargātais režīms jāpamato ar likumu, iestādes sarakstu, DVS/IS noteikumiem vai speciālo tiesisko režīmu.",core,
+EL_ACT,proven_by,EV_SYSTEM_LOGS,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_SYSTEM_FUNCTION,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_PHONE_CALLS,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_SMS_CHAT,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_EMAIL,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_DEVICE_FORENSICS,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_WITNESSES,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_VIDEO,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+EL_ACT,proven_by,EV_OPERATIVE,"Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",supporting,
+DA_PUBLIC_INFO,usually_rejected_by,LC_KL329,Publiska vai teorētiska pieejamība pati par sevi nepadara dienesta resursā iegūtas ziņas par tiesiski nodotām.,core,SKK-25/2019; SKK-J-221/2020; SKK-313/2022
+DA_RECIPIENT_RIGHT,usually_rejected_by,LC_KL329,Adresāta iespēja informāciju iegūt citā kārtībā nav pietiekama; jāvērtē konkrētā izmantošanas kārtība.,core,SKK-25/2019
+DA_EVIDENCE_INADMISSIBLE,can_succeed_when,LC_OPERATIVE_PROPORTIONALITY,Īpaši vecākās lietās ar kriminālpārkāpuma kvalifikāciju ODP pierādījumu samērīguma neizvērtēšana noveda pie nolēmumu atcelšanas.,core,SKK-270/2014; SKK-375/2013; SKK-289/2013; SKK-268/2013
+DA_318_COMPETITION,can_succeed_when,LC_318_COMPETITION,"Ja viena izpaušanas darbība aptverta ar KL 318 un pastāv būtisks kaitējums, kopība ar KL 329 nav jāveido.",core,SKK-8/2017
+DA_UNMOTIVATED_APPEAL,can_succeed_when,LC_KL329,"Ja apelācija nav izvērtējusi būtiskus aizstāvības argumentus par objektīvo pusi, mērķi vai tiesisko pamatu, nolēmumu var atcelt.",core,SKK-28/2023
+LC_INSTIGATION,applies_to,DA_INSTIGATION_ONLY_REQUEST,Uzkūdīšanas robeža jāvērtē pēc lūguma konkrētības un saiknes ar dienesta resursu.,core,SKK-124/2022
+SRC_TIS,contains,IT_COURT_RULINGS,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_TIS,contains,IT_CONVICTIONS,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_SODU,contains,IT_CONVICTIONS,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_SODU,contains,IT_CRIMPROC,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_PMLP,contains,IT_PERSONAL_DATA,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_PMLP,contains,IT_PRIVATE_LIFE,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_VID_IS,contains,IT_TAXPAYER,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_VID_IS,contains,IT_PERSONAL_DATA,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_CSDD,contains,IT_VEHICLE_OWNER,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_DVS,supports,EV_DUTY_DOCS,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_DVS,supports,EV_LEGAL_REGIME,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_EMAIL,supports,EV_EMAIL,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_PHONE,supports,EV_PHONE_CALLS,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_PHONE,supports,EV_SMS_CHAT,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_WHATSAPP,supports,EV_SMS_CHAT,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_SIGNAL,supports,EV_SMS_CHAT,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_MESSENGER,supports,EV_SMS_CHAT,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+SRC_LURSOFT,relevant_to,DA_PUBLIC_INFO,Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.,supporting,
+ORG_VID,uses,SRC_VID_IS,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_VID,uses,SRC_DVS,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_POLICE,uses,SRC_SODU,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_POLICE,uses,SRC_PMLP,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_PROSECUTION,uses,SRC_SODU,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_COURTS,uses,SRC_TIS,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_BORDER,involves,IT_BORDER_CUSTOMS,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_CSDD,uses,SRC_CSDD,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,
+ORG_PROCUREMENT,involves,IT_PROCUREMENT,Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.,supporting,

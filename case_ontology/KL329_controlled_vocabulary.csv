@@ -1,0 +1,68 @@
+﻿id,type,label,detection_terms
+IT_TAXPAYER,ProtectedInfoType,Nodokļu maksātāju ziņas,nodokļu maksāt; valsts ieņēmumu dienest;  vid ; /iestāde a/; sistēma a; eds; nodokļu informācijas sistēm; nodokļu deklarāc; mikrouzņēmumu; nodokļu katedras; iesniegums valsts ieņēmumu dienestam
+IT_CRIMPROC,ProtectedInfoType,Kriminālprocesa ziņas,aizturēšan; saukšanu pie kriminālatbildības; drošības līdzek; izsludināšanu meklēšan; kriminālprocesa uzsāk; procesuālās darbības; izmeklēšanas noslēp; pret personu ir uzsākts kriminālprocess
+IT_CONVICTIONS,ProtectedInfoType,Ziņas par personas sodāmību,sodāmīb; sodu reģistr; iepriekš tiesāta; notiesāta; spriedums stājies spēkā
+IT_PERSONAL_DATA,ProtectedInfoType,Fiziskas personas dati,deklarētā adres; personas statuss; valstiskā piederība; mainītie personas dati; personas kod; dzimšanas dati; dzimšanas gad
+IT_PRIVATE_LIFE,ProtectedInfoType,Ziņas par privāto dzīvi/laulību,laulīb; privāto dzīvi; ģimenes dzīvi; trešās valsts pilson
+IT_CASE_MATERIALS,ProtectedInfoType,Krimināllietas materiāli/fototabulas,fototabul; krimināllietas materiāl; fotoattēl; lietas materiāl; krimināllietas materiālos
+IT_COURT_RULINGS,ProtectedInfoType,Tiesu nolēmumi/neanonimizēti dokumenti,tiesu nolēmum; neanonimiz; slēgtā proces; tisu informācijas sistēmas; tiesu informācijas sistēmas
+IT_VEHICLE_OWNER,ProtectedInfoType,Transportlīdzekļa īpašnieka/apskates dati,automašīn; transportlīdzek; csdd; tehniskajā apskat; īpašniek; virsbūves; modelis
+IT_BORDER_CUSTOMS,ProtectedInfoType,"Robežkontroles, muitas un izceļošanas ziņas",robežkontroles; robežsarg; muitas; vilcien; izsēdinā; prāmju pasažier; pasažieru sarakst; izceļoš
+IT_OPERATIONAL,ProtectedInfoType,Operatīvās darbības ziņas,operatīvās darbības pasākum; operatīvās izstrādes; tiesībaizsardzības iestāžu rīcībā ir ziņas; iespējamo prettiesisko rīcību
+IT_CONTROL_PLAN,ProtectedInfoType,Pārbaudes/kontroles plāni,tirdzniecības likumības; kontroles laiku; kontroles vietu; meža stādu; plānoto pārbaudi
+IT_PROCUREMENT,ProtectedInfoType,Iepirkuma dokumenti/projekti,iepirkuma nolikum; iepirkuma dokument; nolikuma projekt; publiska iepirkuma
+IT_OTHER,ProtectedInfoType,Cits/nenoteikts,
+CH_SMS,DisclosureChannel,SMS/īsziņas,īsziņ; sms; īsziņu veidā; īsziņas veidā
+CH_PHONE,DisclosureChannel,Telefonsaruna/zvans,telefon; zvan; telefonsarun; piezvanīja; sazvanījās
+CH_EMAIL,DisclosureChannel,E-pasts,e-past; elektronisko past; privāto e-pasta; darba e-pasta
+CH_WHATSAPP,DisclosureChannel,WhatsApp,whatsapp
+CH_SIGNAL,DisclosureChannel,Signal,signal
+CH_MESSENGER,DisclosureChannel,Messenger/Facebook,messenger; facebook
+CH_SCREEN,DisclosureChannel,Atļauts aplūkot ekrānā,datora monitor; apskatīt savā dienesta; ekrānā; aplūkot informāciju datora ekrānā
+CH_ORAL,DisclosureChannel,Mutiska izpaušana klātienē,mutiski; pastāst; darīja zināmu; izpauda kolēģiem; klātienē
+CH_COURT_SUBMISSION,DisclosureChannel,Iesniegšana tiesā,iesniedza tiesā; pievienošanai krimināllietas materiāliem; tiesai iesniegt
+CH_PHOTO_FILE,DisclosureChannel,Foto/failu nodošana,fotoattēl; fotogrāfij; nosūtīja foto; failu apmaiņa
+EV_DUTY_DOCS,EvidenceType,Amata dokumenti/brīdinājumi,amata aprakst; brīdināt; apliecinājum; dvs; iepazinus; uzdevumu “iepazīties”; sistēmas lietošanas noteikum
+EV_LEGAL_REGIME,EvidenceType,Informācijas režīma dokumenti,ierobežotas pieejamības informācijas sarakst; informācijas atklātības likum; sodu reģistra likum; likuma “par tiesu varu”; rīkojumu nr; normatīvie akti
+EV_SYSTEM_LOGS,EvidenceType,IS auditācijas dati,auditācijas dat; lietotāja veiktās darbības; pieslēgum; skatīts; žurnāl; datu noliktavas
+EV_SYSTEM_FUNCTION,EvidenceType,IS funkcionalitātes/speciālista skaidrojums,saraksta log; ieraksta log; sistēmas uzbūve; informācijas sistēmu administrator; it speciālist; informātikas pārvald; darbības princip
+EV_PHONE_CALLS,EvidenceType,Telefonsarunas un zvanu izdrukas,telefonsarun; zvanu izdruk; sarunas ilgums; saņemts zvans; veikts zvans; operator
+EV_SMS_CHAT,EvidenceType,SMS/čati,īsziņ; sms; whatsapp; signal; messenger; čat; sarakst; failu apmaiņa
+EV_EMAIL,EvidenceType,E-pasta pierādījumi,e-past; pielikumā; vēstuli; privāto e-pasta
+EV_DEVICE_FORENSICS,EvidenceType,Ierīču digitālā apskate/spoguļkopija,msab xry; cellebrite; spoguļkopij; telefona apskat; viedtālrun; ārējais cietais disks; imei; datu nesēju; xray
+EV_WITNESSES,EvidenceType,Liecinieku liecības,lieciniek; liecināja; nopratināšan; liecīb
+EV_VIDEO,EvidenceType,Video/foto fiksācija,videonovērošanas; video; foto fiksāc; attēls nr; fototabul
+EV_OPERATIVE,EvidenceType,Operatīvās darbības pierādījumi,operatīvās darbības; operatīvā noklausīšanās; sevišķajā veidā; operatīvās izstrādes; operatīvi iegūtas
+EV_CONFESSION,EvidenceType,Atzīšanās/paskaidrojumi,vainu atzīst; atzina savu vainu; nožēlo; paskaidroja; aizturētā statusā
+INST_VID,Institution,VID/Valsts ieņēmumu dienests,valsts ieņēmumu dienest; vid; nodokļu informācijas sistēm; /iestāde a/
+INST_POLICE,Institution,Valsts policija,valsts policij; policijas iecirkn; policij
+INST_PROSECUTION,Institution,Prokuratūra/prokurori,prokuratūr; prokuror; virsprokuror
+INST_COURT,Institution,Tiesas/Tiesu administrācija/TIS,tiesa; senāts; tiesu informācijas sistēm; tiesu administrāc
+INST_KNAB,Institution,KNAB,knab; korupcijas novēršanas
+INST_IC,Institution,Iekšlietu ministrijas Informācijas centrs/Sodu reģistrs,iekšlietu ministrijas informācijas centr; sodu reģistr
+INST_PMLP,Institution,PMLP/Iedzīvotāju reģistrs,pilsonības un migrācijas lietu pārvalde; iedzīvotāju reģistr; personu datu pārlūks
+INST_CSDD,Institution,CSDD,ceļu satiksmes drošības direkcij; csdd
+INST_BORDER,Institution,Valsts robežsardze/muita,valsts robežsardz; robežsardz; muitas dienest; muitas
+INST_MUNICIPAL,Institution,Pašvaldības/valsts pārvaldes citas iestādes,pašvaldīb; ministrij; valsts pārvaldes iestādes
+SRC_TIS,InformationSource,Tiesu informācijas sistēma/TIS,tiesu informācijas sistēm;  tis 
+SRC_VID_NIS,InformationSource,VID sistēmas/NIS/EDS,nodokļu informācijas sistēm; vid nis; eds; /sistēma a/; sistēma a; datu noliktavas
+SRC_SODU,InformationSource,Sodu reģistrs/IMIC,sodu reģistr; iekšlietu ministrijas informācijas centr
+SRC_PMLP,InformationSource,PMLP Personu datu pārlūks/Iedzīvotāju reģistrs,personu datu pārlūks; iedzīvotāju reģistr; pmlp
+SRC_CSDD,InformationSource,CSDD ārējā sistēma,csdd; ceļu satiksmes drošības direkcij
+SRC_PUBLIC,InformationSource,Publiskie avoti/Lursoft/internets,lursoft; google; facebook; publisk; vispārpieej; tīmekļvietn
+SRC_WHATSAPP,InformationSource,WhatsApp,whatsapp
+SRC_SIGNAL,InformationSource,Signal,signal
+SRC_MESSENGER,InformationSource,Messenger/Facebook,messenger; facebook
+SRC_EMAIL,InformationSource,E-pasts,e-past
+SRC_PHONE,InformationSource,Telefons/SMS,telefon; zvan; īsziņ; sms
+DA_PUBLIC_INFO,DefenseArgument,Informācija bija publiska/adresātam zināma,publisk; vispārpieej; varēja iegūt pati; google; lursoft; facebook; jau zināja; iepriekš informēta
+DA_NO_DISCLOSURE,DefenseArgument,"Nebija izpaušanas, tikai apskate/piekļuve",nav izpaud; tikai iepazin; iepazīšanās; netika nodota; apskatīšanās
+DA_LAWFUL_DUTY,DefenseArgument,Rīcība amata pienākumu/uzdevuma ietvaros,amata pienākumu; dienesta nepieciešam; konkrētu darba uzdevumu; administratīvā procesa likuma; informācijas izmantošanas mērķi; tiesisks pamats
+DA_NOT_PROTECTED,DefenseArgument,Ziņas nav neizpaužamas/ierobežotas,nav ierobežotas pieejamības; nav neizpaužamas; informācijas režīms; nav tiesiska pamata; nepareizi atzīta
+DA_OPERATIVE_ADMISSIBILITY,DefenseArgument,Operatīvo pierādījumu pieļaujamība/samērīgums,operatīvās darbības; pieļaujam; samērīg; sevišķajā veidā; cilvēktiesību garantēšanas; konstitucionālās tiesības
+DA_DEVICE_CHAIN,DefenseArgument,Digitālo pierādījumu ķēde/ierīču pārbaude,telefoni nav pievienoti; spoguļkopij; ierīces; apksates protokol; xry; nevarēja pārbaudīt
+DA_NO_INTENT,DefenseArgument,Nav tieša nodoma/kļūda,tiešs nodoms; neapzinājās; kļūdaini; nebija nodoma; subjektīvā puse
+DA_KL318_COMPETITION,DefenseArgument,KL 318 un 329 normu konkurence,318. panta; normu konkurence; plašāka norma; būtisku kaitējumu
+DA_MOTIVATION,DefenseArgument,Apelācijas/pirmās instances motivācijas trūkumi,nav izvērtējusi; nav sniegusi atzinumu; nav motivējusi; neatbilst 564. panta ceturtajai; pamatotību
+DA_FACT_REEVAL,DefenseArgument,Faktisko apstākļu atkārtota vērtēšana kasācijā,"nevis juridisku, bet faktisku; atkārtotu pierādījumu izvērtēšanu; neapmierinātību ar secinājumiem; pretrunā kriminālprocesa likuma 569"
+DA_INSTIGATION,DefenseArgument,Uzkūdīšanas pazīmju apstrīdēšana,uzkūdīšan; lūgums; priekšlikums; pamudināšan; līdzdalīb

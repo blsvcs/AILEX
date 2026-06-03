@@ -1,36 +1,17 @@
 # AILEX
 
-AILEX is a pilot legal analytics project for structured Latvian case-law analysis.
+AILEX is a scalable legal analytics project. The first pilot module is KL 329: neizpauzamu zinu izpausana.
 
-## Pilot module
+## Upload contents
 
-The first pilot module is focused on **Kriminallikuma 329. pants**: neizpauzamu zinu izpausana.
+- `data/kl329/` - SQLite database, summaries, index files and generated packages.
+- `schema/` - SQLite and Supabase/PostgreSQL schema, data dictionary.
+- `queries/` - example SQL queries.
+- `ontology/` - KL329 ontology nodes, edges and JSON.
+- `case_ontology/` - case-to-ontology mappings and lawyer playbook.
+- `originals/` - source uploaded documents and ZIP archive.
+- `docs/` - analysis notes.
 
-The goal is to move from a document archive to a structured, scalable knowledge base for lawyers, legal researchers and private persons.
+## Suggested cloud path
 
-## Repository structure
-
-```text
-schema/
-  schema_sqlite.sql
-  schema_supabase_postgres.sql
-  data_dictionary.csv
-queries/
-  example_queries.sql
-data/kl329/
-  database_summary.json
-  notes.md
-```
-
-## Current status
-
-This repository has been initialized from the KL329 pilot package created in ChatGPT. The next step is to upload or regenerate the larger binary artifacts, including the SQLite database and ZIP package, if needed.
-
-## Key design principles
-
-- multi-article architecture, not limited to KL 329;
-- structured metadata for cases, documents, institutions, officials, devices and evidence;
-- ontology layer for legal concepts and relationships;
-- jurist validation layer for professional use;
-- cloud-ready PostgreSQL/Supabase schema;
-- full-text and future vector search support.
+Use Supabase/PostgreSQL as the primary cloud database, keep original documents in object storage, and import structured files from this bundle.

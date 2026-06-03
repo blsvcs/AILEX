@@ -1,0 +1,1234 @@
+{
+  "metadata": {
+    "title": "KL 329 judikatūras ontoloģija",
+    "version": "0.1",
+    "date": "2026-06-03",
+    "basis": "Anonimizēto nolēmumu korpuss + Senāta atziņu apkopojums",
+    "corpus_signals": {
+      "files": 55,
+      "unique_texts": 54,
+      "extensions": {
+        ".pdf": 46,
+        ".docx": 6,
+        ".doc": 3
+      },
+      "instances": {
+        "Apelācija/apgabaltiesa": 12,
+        "Pirmā instance": 16,
+        "Senāts": 22,
+        "unknown": 5
+      },
+      "evidence": {
+        "amatdokumenti": 52,
+        "epasts": 30,
+        "informacijas_sistemas": 53,
+        "liecinieki": 37,
+        "operativa_noklausisanas": 21,
+        "sms": 24,
+        "telefonsarunas": 40,
+        "xry_telefonu_apskate": 17,
+        "DNS": 2,
+        "auditacijas_dati": 7,
+        "kratishana_apskate": 20,
+        "video": 9,
+        "whatsapp": 9,
+        "signal": 2,
+        "messenger": 3,
+        "fonoskopija": 1
+      },
+      "info_subjects": {
+        "aizturesana_kriminalprocess": 55,
+        "kriminallietas_materiali": 35,
+        "lauliba_privata_dzive": 15,
+        "personas_dati": 47,
+        "robeza_muita": 51,
+        "tiesu_nolemumi": 55,
+        "auto_ipasnieks": 26,
+        "nodoklu_maksatajs": 40,
+        "operativas_zinas": 17,
+        "sodamiba": 27,
+        "iepirkums": 4
+      },
+      "defense": {
+        "dienesta_pienakumi": 43,
+        "nav_objektiva_puse": 39,
+        "nav_tiesiska_pamata": 13,
+        "nav_tiess_nodoms": 17,
+        "pieradijumu_pielaujamiba": 40,
+        "publiski_pieejama_info": 18,
+        "uzkudisana": 25,
+        "kl318_normu_konkurence": 4
+      },
+      "outcomes": {
+        "attaisnojoss": 25,
+        "izbeigts": 12,
+        "notiesajoss": 52,
+        "atcelts_nosutits": 11,
+        "atteikta_kasacija": 9
+      },
+      "duplicates": {
+        "9e5f57eae9a1e9687ad67489bc1b7fb91a9e7ad2854236df1e01be1e8acd84ab": [
+          "SKK-175-2026 (1).docx",
+          "SKK-175-2026.docx"
+        ]
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": "LC_KL329",
+      "type": "LegalConcept",
+      "label": "KL 329. pants",
+      "definition": "Kriminālatbildība par neizpaužamu ziņu izpaušanu, ja to izdara valsts amatpersona, kura bijusi brīdināta vai saskaņā ar likumu atbildīga par ziņu glabāšanu.",
+      "source_basis": "Senāta apkopojums 2013-2023",
+      "lawyer_use": "Pamatmezgls, pie kura piesaista visus sastāva elementus, pierādījumus un aizstāvības argumentus.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EL_SUBJECT",
+      "type": "OffenceElement",
+      "label": "Speciālais subjekts",
+      "definition": "Valsts amatpersona, kas bijusi brīdināta par ziņu neizpaušanu vai saskaņā ar likumu ir atbildīga par ziņu glabāšanu.",
+      "source_basis": "KL 329; Senāta apkopojums",
+      "lawyer_use": "Aizstāvībā pārbaudīt amatpersonas statusu, brīdinājumu un atbildības tiesisko pamatu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EL_OBJECT",
+      "type": "OffenceElement",
+      "label": "Noziedzīgā nodarījuma priekšmets",
+      "definition": "Neizpaužamas ziņas: informācija, kas nav attiecīgi aizsargājama kā konfidenciāla/slepena/sevišķi slepena valsts noslēpuma informācija, bet kurai normatīvajos aktos vai tiesiskā režīmā paredzēta īpaša izmantošanas kārtība vai izplatīšanas aizliegums.",
+      "source_basis": "Senāta apkopojums, SKK-313/2022, SKK-25/2019",
+      "lawyer_use": "Pirmais aizstāvības kontroles punkts: vai tieši konkrētā ziņa vai ziņu kombinācija ir aizsargāta.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EL_ACT",
+      "type": "OffenceElement",
+      "label": "Objektīvā puse: izpaušana",
+      "definition": "Amata pienākumu dēļ pieejamas neizpaužamas informācijas nodošana vai izmantošana ārpus amata pienākumiem tā, ka tā nokļūst pie vēl vismaz vienas personas.",
+      "source_basis": "Senāta apkopojums, SKK-147/2017, SKK-313/2022",
+      "lawyer_use": "Nošķirt piekļuvi/iepazīšanos no nodošanas; prasīt adresātu, saturu un nodošanas kanālu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EL_FORMAL",
+      "type": "OffenceElement",
+      "label": "Formāls sastāvs",
+      "definition": "Noziedzīgais nodarījums ir pabeigts ar izpaušanas brīdi neatkarīgi no sekām un izpaustā apjoma.",
+      "source_basis": "Senāta apkopojums, SKK-28/2023, SKK-313/2022",
+      "lawyer_use": "Aizstāvībā nevajadzētu balstīties tikai uz argumentu, ka kaitējums nav iestājies; jāuzbrūk sastāva elementiem.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EL_MENSREA",
+      "type": "OffenceElement",
+      "label": "Subjektīvā puse: tiešs nodoms",
+      "definition": "Persona apzinās informācijas aizsargāto raksturu un to, ka informācija tiek nodota ārpus tiesiskā pamata.",
+      "source_basis": "Doktrīna un lietu prakse",
+      "lawyer_use": "Aizstāvībai jāpārbauda apmācība, brīdinājumi, DVS iepazīšanās, amatpienākumu robežas un kļūdas iespēja.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "LC_NOT_BLANKET",
+      "type": "LegalRule",
+      "label": "KL 329 nav blanketa norma",
+      "definition": "Senāts atzinis, ka KL 329 dispozīcijā norādītas sastāva pazīmes, tomēr praksē informācijas režīmu pierāda ar speciāliem normatīvajiem aktiem, iekšējiem sarakstiem un amata dokumentiem.",
+      "source_basis": "Senāta apkopojums",
+      "lawyer_use": "Neļauj aizstāvībai automātiski panākt attaisnošanu tikai tāpēc, ka apsūdzībā nav detalizēti citēta ārējā norma; tomēr informācijas režīma pierādīšana paliek būtiska.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "LC_318_COMPETITION",
+      "type": "LegalRule",
+      "label": "KL 318 un KL 329 normu konkurence",
+      "definition": "Ja izpaušana ir dienesta stāvokļa ļaunprātīga izmantošana ar būtisku kaitējumu, piemērojams KL 318 kā plašāka norma; kopība ar KL 329 neveidojas.",
+      "source_basis": "SKK-8/2017",
+      "lawyer_use": "Ļoti svarīgs arguments, ja apsūdzība kvalificē vienu un to pašu izpaušanu gan pēc 318., gan 329. panta.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "LC_INSTIGATION",
+      "type": "LegalRule",
+      "label": "Uzkūdīšana",
+      "definition": "Uzkūdīšana var izpausties arī kā konkrēts lūgums vai priekšlikums iegūt/izpaust informāciju, īpaši ja lūdzējs zina par amatpersonas piekļuvi.",
+      "source_basis": "SKK-124/2022",
+      "lawyer_use": "Aizstāvībai jānošķir abstrakta interese no konkrēta pamudinājuma iegūt aizsargātu informāciju.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "LC_OPERATIVE_PROPORTIONALITY",
+      "type": "LegalRule",
+      "label": "Operatīvo pierādījumu samērīgums",
+      "definition": "Vecākās lietās, kad KL 329 bija kriminālpārkāpums, Senāts prasīja izvērtēt sevišķā veidā iegūtu operatīvo ziņu izmantošanas samērīgumu un pieļaujamību.",
+      "source_basis": "SKK-270/2014; SKK-375/2013; SKK-289/2013; SKK-268/2013",
+      "lawyer_use": "Digitālo un operatīvo pierādījumu pieļaujamība ir viens no spēcīgākajiem aizstāvības virzieniem.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "IT_TAXPAYER",
+      "type": "ProtectedInfoType",
+      "label": "Nodokļu maksātāju ziņas",
+      "definition": "VID/NIS/EDS vai citās nodokļu sistēmās esoša informācija par nodokļu maksātājiem, iesniegumiem, atzinumiem, dokumentu projektiem.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-28/2023; SKK-8/2017; 2025 VID spriedums",
+      "status": "active"
+    },
+    {
+      "id": "IT_CRIMPROC",
+      "type": "ProtectedInfoType",
+      "label": "Kriminālprocesa ziņas",
+      "definition": "Ziņas par aizturēšanu, saukšanu pie kriminālatbildības, drošības līdzekli, meklēšanu vai procesuālām darbībām.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-191/2022; SKK-124/2022",
+      "status": "active"
+    },
+    {
+      "id": "IT_CONVICTIONS",
+      "type": "ProtectedInfoType",
+      "label": "Sodāmības ziņas",
+      "definition": "Informācija par personas sodāmību, spriedumu, sodu un sprieduma spēkā stāšanos.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-313/2022; SKK-J-221/2020",
+      "status": "active"
+    },
+    {
+      "id": "IT_PERSONAL_DATA",
+      "type": "ProtectedInfoType",
+      "label": "Fiziskas personas dati",
+      "definition": "Personas statuss, valstiskā piederība, deklarētā adrese, dzimšanas un mainītie personas dati, personas kodi.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-587/2022",
+      "status": "active"
+    },
+    {
+      "id": "IT_PRIVATE_LIFE",
+      "type": "ProtectedInfoType",
+      "label": "Privātā dzīve/laulība",
+      "definition": "Informācija par personas laulību, ģimenes vai privātās dzīves apstākļiem.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-216/2023",
+      "status": "active"
+    },
+    {
+      "id": "IT_CASE_MATERIALS",
+      "type": "ProtectedInfoType",
+      "label": "Krimināllietas materiāli",
+      "definition": "Fototabulas, lietas materiālu fotoattēli, izmeklēšanas materiāli un to fragmenti.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-576/2022",
+      "status": "active"
+    },
+    {
+      "id": "IT_COURT_RULINGS",
+      "type": "ProtectedInfoType",
+      "label": "Tiesu nolēmumi",
+      "definition": "Nepublicēti vai neanonimizēti tiesu nolēmumi, īpaši slēgtos procesos.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-720/2019",
+      "status": "active"
+    },
+    {
+      "id": "IT_VEHICLE_OWNER",
+      "type": "ProtectedInfoType",
+      "label": "Transportlīdzekļa īpašnieks",
+      "definition": "Ziņas par automašīnas īpašnieku, uzrādītāju tehniskajā apskatē, adresi, personas kodu.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-25/2019; SKK-289/2013; SKK-268/2013",
+      "status": "active"
+    },
+    {
+      "id": "IT_BORDER_CUSTOMS",
+      "type": "ProtectedInfoType",
+      "label": "Robežkontrole/muita/izceļošana",
+      "definition": "Robežsargu maiņas uzdevumi, personas pārbaude vilcienā, izsēdināšana, prāmju pasažieru saraksti.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-147/2017; SKK-270/2014; SKK-368/2019",
+      "status": "active"
+    },
+    {
+      "id": "IT_OPERATIONAL",
+      "type": "ProtectedInfoType",
+      "label": "Operatīvās darbības ziņas",
+      "definition": "Ziņas par iespējamiem operatīvās darbības pasākumiem vai tiesībaizsardzības iestāžu rīcībā esošām ziņām.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-[AS]/2014",
+      "status": "active"
+    },
+    {
+      "id": "IT_CONTROL_PLAN",
+      "type": "ProtectedInfoType",
+      "label": "Kontroles/pārbaudes plāni",
+      "definition": "Ziņas par plānotu tirdzniecības vai citas likumības kontroles laiku un vietu.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-375/2013",
+      "status": "active"
+    },
+    {
+      "id": "IT_PROCUREMENT",
+      "type": "ProtectedInfoType",
+      "label": "Iepirkuma dokumenti/projekti",
+      "definition": "Iepirkuma nolikuma projekti vai sagatavošanā esoša iepirkuma dokumentācija, ja tai noteikts aizsargāts režīms.",
+      "source_basis": "Korpuss + Senāta apkopojuma lietu saraksts",
+      "lawyer_use": "Palīdz ātri klasificēt lietu pēc informācijas priekšmeta un atrast analoģiju.",
+      "examples": "SKK-175/2026",
+      "status": "active"
+    },
+    {
+      "id": "EV_DUTY_DOCS",
+      "type": "EvidenceType",
+      "label": "Amata dokumenti un brīdinājumi",
+      "definition": "Amata apraksti, apliecinājumi, DVS uzdevums “iepazīties”, IS lietošanas noteikumi, iekšējie rīkojumi.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Pierāda subjektu, informētību un atbildību par ziņu glabāšanu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_LEGAL_REGIME",
+      "type": "EvidenceType",
+      "label": "Informācijas režīma dokumenti",
+      "definition": "IAL, speciālie likumi, iestādes ierobežotas pieejamības saraksti, DVS pierādījumi par iepazīšanos.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Pierāda, ka konkrētajai ziņai ir neizpaužamas informācijas režīms.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_SYSTEM_LOGS",
+      "type": "EvidenceType",
+      "label": "IS auditācijas dati un piekļuves vēsture",
+      "definition": "Sistēmu lietotāju darbību žurnāli, pieslēgumi, “skatīts” ieraksti, saraksta/ieraksta logu analīze.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Pierāda piekļuvi vai palīdz izskaidrot, kāpēc piekļuve neparādās žurnālā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_SYSTEM_FUNCTION",
+      "type": "EvidenceType",
+      "label": "IS funkcionalitātes demonstrācija",
+      "definition": "Sistēmas ekrānattēli, saraksta logi, speciālista liecības par to, kāda informācija redzama un kas netiek auditēts.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Ļoti noder, ja tieša auditācijas ieraksta nav, bet izpaustās ziņas sakrīt ar sistēmas attēlojumu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_PHONE_CALLS",
+      "type": "EvidenceType",
+      "label": "Telefonsarunas",
+      "definition": "Telefonsarunu ieraksti, zvanu izdrukas, sarunu saturs, sarunu laika sakritība.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Bieži pierāda pieprasījumu, iegūšanu, izpaušanu un nodomu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_SMS_CHAT",
+      "type": "EvidenceType",
+      "label": "SMS/čati",
+      "definition": "SMS, WhatsApp, Signal, Messenger, failu apmaiņa, ekrānattēli, čatu eksports.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Pierāda izpaustās informācijas tekstu vai nodošanas kanālu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_EMAIL",
+      "type": "EvidenceType",
+      "label": "E-pasts",
+      "definition": "Darba vai privātā e-pasta vēstules, pielikumi, dokumentu projekti.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Pierāda dokumentu nodošanu un adresātu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_DEVICE_FORENSICS",
+      "type": "EvidenceType",
+      "label": "Ierīču digitālā ekspertīze",
+      "definition": "MSAB XRY/Cellebrite loģiskās kopijas, telefonu apskates, ārējie diski, metadati.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Pierāda komunikāciju, failus, kontaktus un izmeklēšanas ķēdi.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_WITNESSES",
+      "type": "EvidenceType",
+      "label": "Liecinieku liecības",
+      "definition": "Adresātu, kolēģu, IT speciālistu, personāla un izmeklētāju liecības.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Svarīgas gan izpaušanas faktam, gan IS funkcionalitātei un informācijas režīmam.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_VIDEO",
+      "type": "EvidenceType",
+      "label": "Video/foto fiksācija",
+      "definition": "Videonovērošanas ieraksti, telefonu ekrāna foto, fototabulas, apskates foto.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Atbalsta darbību laika, vietas un fizisku priekšmetu pierādīšanu.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "EV_OPERATIVE",
+      "type": "EvidenceType",
+      "label": "Operatīvi iegūtas ziņas",
+      "definition": "Operatīvā noklausīšanās, sevišķā veidā veikti ODP, tiesneša akcepts, KPL 127. panta ziņas.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Spēcīgs pierādījums, bet aizstāvībai jāpārbauda samērīgums un pieļaujamība.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_NOT_PROTECTED",
+      "type": "DefenseArgument",
+      "label": "Nav pierādīts, ka ziņas bija neizpaužamas",
+      "definition": "Prasīt precīzu ziņu režīmu, izplatīšanas aizliegumu, izmantošanas kārtību un to attiecināmību uz konkrēto ziņu kombināciju.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: mixed.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_NO_DISCLOSURE",
+      "type": "DefenseArgument",
+      "label": "Nav izpaušanas, tikai piekļuve/apskate",
+      "definition": "Prasīt pierādījumus, ka ziņas nonāca pie konkrēta adresāta, nevis tikai tika skatītas sistēmā.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: mixed.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_LAWFUL_DUTY",
+      "type": "DefenseArgument",
+      "label": "Rīcība veikta amata pienākumu vai konkrēta darba uzdevuma ietvaros",
+      "definition": "Pierādīt tiesisku pamatu: administratīvā lieta, darba uzdevums, tiesisks informācijas aprites kanāls.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: mixed.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_PUBLIC_INFO",
+      "type": "DefenseArgument",
+      "label": "Informācija bija publiski pieejama vai adresātam jau zināma",
+      "definition": "Jāpierāda precīza publiskā pieejamība izpaušanas brīdī un tas, ka amatpersona neizmantoja dienesta resursu.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: usually_rejected.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_RECIPIENT_RIGHT",
+      "type": "DefenseArgument",
+      "label": "Adresātam pašam bija tiesības iegūt informāciju",
+      "definition": "Senāts prasa vērtēt izmantošanas kārtību, ne tikai teorētisku tiesību iegūt informāciju.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: usually_rejected.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_NO_INTENT",
+      "type": "DefenseArgument",
+      "label": "Nav tieša nodoma",
+      "definition": "Balstīt uz neskaidriem noteikumiem, kļūdu par tiesisko pamatu, apmācības trūkumu, neskaidru uzdevumu.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: mixed.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_EVIDENCE_INADMISSIBLE",
+      "type": "DefenseArgument",
+      "label": "Pierādījumi nepieļaujami",
+      "definition": "Uzbrukt ODP, telefonu spoguļkopiju, kratīšanas/apskates protokolu, datu ķēdes, tiesneša akcepta un samērīguma jautājumiem.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: often_effective_if_specific.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_318_COMPETITION",
+      "type": "DefenseArgument",
+      "label": "Nepareiza kumulatīva kvalifikācija ar KL 318",
+      "definition": "Ja viena darbība kvalificēta gan pēc 318., gan 329. panta, vērtēt normu konkurenci.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: effective.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_UNMOTIVATED_APPEAL",
+      "type": "DefenseArgument",
+      "label": "Apelācija nav izvērtējusi būtiskus argumentus",
+      "definition": "Norādīt uz KPL 564. panta prasībām par motivāciju un aizstāvības argumentu izvērtēšanu.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: effective.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "DA_INSTIGATION_ONLY_REQUEST",
+      "type": "DefenseArgument",
+      "label": "Nav uzkūdīšanas – tikai vispārīgs jautājums/interese",
+      "definition": "Jāanalizē, vai lūgums bija konkrēts, vai lūdzējs zināja par dienesta resursu, vai nodeva identificējošus datus.",
+      "source_basis": "Korpuss + Senāta apkopojums",
+      "lawyer_use": "Praktiskā vērtība: mixed.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_VID",
+      "type": "Institution",
+      "label": "VID / nodokļu administrācija",
+      "definition": "Nodokļu informācijas sistēmas, EDS, nodokļu maksātāju dati, iekšējās drošības pārbaudes.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_POLICE",
+      "type": "Institution",
+      "label": "Valsts policija / Iekšlietu sistēma",
+      "definition": "Personu dati, Sodu reģistrs, operatīvās darbības, kriminālprocesa ziņas.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_PROSECUTION",
+      "type": "Institution",
+      "label": "Prokuratūra",
+      "definition": "Kriminālprocesa ziņas, aizturēšana, augstāka prokurora funkcijas, īpaši pilnvaroti prokurori.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_COURTS",
+      "type": "Institution",
+      "label": "Tiesas / Tiesu administrācija",
+      "definition": "TIS, nepublicēti vai neanonimizēti tiesu nolēmumi, lietu materiāli.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_BORDER",
+      "type": "Institution",
+      "label": "Valsts robežsardze / muita",
+      "definition": "Robežkontroles uzdevumi, pasažieru dati, izceļošana, vilciena pārbaude.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_CSDD",
+      "type": "Institution",
+      "label": "CSDD / transportlīdzekļu datubāzes",
+      "definition": "Transportlīdzekļa īpašnieki, tehniskās apskates uzrādītāji.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "ORG_PROCUREMENT",
+      "type": "Institution",
+      "label": "Pasūtītāji iepirkumos",
+      "definition": "Iepirkuma dokumentu projekti un sagatavošanas informācija.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Lietu filtrēšana pēc iestādes un informācijas sistēmu režīma.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_TIS",
+      "type": "InformationSource",
+      "label": "TIS",
+      "definition": "Tiesu informācijas sistēma: tiesu nolēmumi, lietu dati, sodāmības informācija atsevišķos kontekstos.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_SODU",
+      "type": "InformationSource",
+      "label": "Sodu reģistrs / IeM IC",
+      "definition": "Ziņas par sodāmību, aizturēšanu, meklēšanu, drošības līdzekļiem.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_PMLP",
+      "type": "InformationSource",
+      "label": "PMLP Personu datu pārlūks",
+      "definition": "Iedzīvotāju reģistra/personas dati, laulības un citi privātās dzīves dati.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_VID_IS",
+      "type": "InformationSource",
+      "label": "VID/NIS/EDS/Sistēma A",
+      "definition": "Nodokļu maksātāju dati, saraksta logi, īpašumu/nodokļu informācija.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_CSDD",
+      "type": "InformationSource",
+      "label": "CSDD IS",
+      "definition": "Transportlīdzekļa un īpašnieka dati.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_DVS",
+      "type": "InformationSource",
+      "label": "DVS/Koplietošanas krātuve",
+      "definition": "Iepazīšanās ar rīkojumiem, ierobežotas pieejamības saraksti, amata dokumenti.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_EMAIL",
+      "type": "InformationSource",
+      "label": "E-pasts",
+      "definition": "Darba/privātais e-pasts, pielikumi, dokumentu projekti.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_PHONE",
+      "type": "InformationSource",
+      "label": "Telefons",
+      "definition": "Zvani, SMS, kontaktu nosaukumi un zvanu metadati.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_WHATSAPP",
+      "type": "InformationSource",
+      "label": "WhatsApp",
+      "definition": "Sarakstes, faili, ziņas un komunikācijas metadati ierīcē.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_SIGNAL",
+      "type": "InformationSource",
+      "label": "Signal",
+      "definition": "Šifrēta saziņa; saturs parasti pieejams no ierīces, nevis operatora.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_MESSENGER",
+      "type": "InformationSource",
+      "label": "Messenger",
+      "definition": "Fotogrāfiju vai dokumentu nosūtīšana.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    },
+    {
+      "id": "SRC_LURSOFT",
+      "type": "InformationSource",
+      "label": "Lursoft/publiskie avoti",
+      "definition": "Publiski vai maksas reģistri; svarīgi pārbaudīt, vai precīzā ziņu kombinācija bija publiski iegūstama.",
+      "source_basis": "Korpuss",
+      "lawyer_use": "Izmanto tehniskajā un juridiskajā kartēšanā.",
+      "examples": "",
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_TAXPAYER",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_CRIMPROC",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_CONVICTIONS",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_PERSONAL_DATA",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_PRIVATE_LIFE",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_CASE_MATERIALS",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_COURT_RULINGS",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_VEHICLE_OWNER",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_BORDER_CUSTOMS",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_OPERATIONAL",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_CONTROL_PLAN",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "has_subtype",
+      "target": "IT_PROCUREMENT",
+      "explanation": "Šis informācijas veids var būt KL 329 priekšmets, ja tam ir pierādīts aizsargāts tiesiskais režīms.",
+      "strength": "core",
+      "source_basis": "Senāta apkopojums"
+    },
+    {
+      "source": "LC_KL329",
+      "relation": "has_element",
+      "target": "EL_SUBJECT",
+      "explanation": "KL 329 sastāva pamatelements.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "LC_KL329",
+      "relation": "has_element",
+      "target": "EL_OBJECT",
+      "explanation": "KL 329 sastāva pamatelements.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "LC_KL329",
+      "relation": "has_element",
+      "target": "EL_ACT",
+      "explanation": "KL 329 sastāva pamatelements.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "LC_KL329",
+      "relation": "has_element",
+      "target": "EL_FORMAL",
+      "explanation": "KL 329 sastāva pamatelements.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "LC_KL329",
+      "relation": "has_element",
+      "target": "EL_MENSREA",
+      "explanation": "KL 329 sastāva pamatelements.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_SUBJECT",
+      "relation": "proven_by",
+      "target": "EV_DUTY_DOCS",
+      "explanation": "Subjekta statuss, brīdinājums un atbildība par ziņu glabāšanu parasti tiek pierādīta ar amata un iekšējiem dokumentiem.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_SUBJECT",
+      "relation": "proven_by",
+      "target": "EV_LEGAL_REGIME",
+      "explanation": "Subjekta statuss, brīdinājums un atbildība par ziņu glabāšanu parasti tiek pierādīta ar amata un iekšējiem dokumentiem.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_OBJECT",
+      "relation": "proven_by",
+      "target": "EV_LEGAL_REGIME",
+      "explanation": "Informācijas aizsargātais režīms jāpamato ar likumu, iestādes sarakstu, DVS/IS noteikumiem vai speciālo tiesisko režīmu.",
+      "strength": "core",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_SYSTEM_LOGS",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_SYSTEM_FUNCTION",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_PHONE_CALLS",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_SMS_CHAT",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_EMAIL",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_DEVICE_FORENSICS",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_WITNESSES",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_VIDEO",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "EL_ACT",
+      "relation": "proven_by",
+      "target": "EV_OPERATIVE",
+      "explanation": "Izpaušanas faktu un kanālu var pierādīt ar šo pierādījumu veidu, ja tie parāda saturu, adresātu un nodošanas brīdi.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "DA_PUBLIC_INFO",
+      "relation": "usually_rejected_by",
+      "target": "LC_KL329",
+      "explanation": "Publiska vai teorētiska pieejamība pati par sevi nepadara dienesta resursā iegūtas ziņas par tiesiski nodotām.",
+      "strength": "core",
+      "source_basis": "SKK-25/2019; SKK-J-221/2020; SKK-313/2022"
+    },
+    {
+      "source": "DA_RECIPIENT_RIGHT",
+      "relation": "usually_rejected_by",
+      "target": "LC_KL329",
+      "explanation": "Adresāta iespēja informāciju iegūt citā kārtībā nav pietiekama; jāvērtē konkrētā izmantošanas kārtība.",
+      "strength": "core",
+      "source_basis": "SKK-25/2019"
+    },
+    {
+      "source": "DA_EVIDENCE_INADMISSIBLE",
+      "relation": "can_succeed_when",
+      "target": "LC_OPERATIVE_PROPORTIONALITY",
+      "explanation": "Īpaši vecākās lietās ar kriminālpārkāpuma kvalifikāciju ODP pierādījumu samērīguma neizvērtēšana noveda pie nolēmumu atcelšanas.",
+      "strength": "core",
+      "source_basis": "SKK-270/2014; SKK-375/2013; SKK-289/2013; SKK-268/2013"
+    },
+    {
+      "source": "DA_318_COMPETITION",
+      "relation": "can_succeed_when",
+      "target": "LC_318_COMPETITION",
+      "explanation": "Ja viena izpaušanas darbība aptverta ar KL 318 un pastāv būtisks kaitējums, kopība ar KL 329 nav jāveido.",
+      "strength": "core",
+      "source_basis": "SKK-8/2017"
+    },
+    {
+      "source": "DA_UNMOTIVATED_APPEAL",
+      "relation": "can_succeed_when",
+      "target": "LC_KL329",
+      "explanation": "Ja apelācija nav izvērtējusi būtiskus aizstāvības argumentus par objektīvo pusi, mērķi vai tiesisko pamatu, nolēmumu var atcelt.",
+      "strength": "core",
+      "source_basis": "SKK-28/2023"
+    },
+    {
+      "source": "LC_INSTIGATION",
+      "relation": "applies_to",
+      "target": "DA_INSTIGATION_ONLY_REQUEST",
+      "explanation": "Uzkūdīšanas robeža jāvērtē pēc lūguma konkrētības un saiknes ar dienesta resursu.",
+      "strength": "core",
+      "source_basis": "SKK-124/2022"
+    },
+    {
+      "source": "SRC_TIS",
+      "relation": "contains",
+      "target": "IT_COURT_RULINGS",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_TIS",
+      "relation": "contains",
+      "target": "IT_CONVICTIONS",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_SODU",
+      "relation": "contains",
+      "target": "IT_CONVICTIONS",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_SODU",
+      "relation": "contains",
+      "target": "IT_CRIMPROC",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_PMLP",
+      "relation": "contains",
+      "target": "IT_PERSONAL_DATA",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_PMLP",
+      "relation": "contains",
+      "target": "IT_PRIVATE_LIFE",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_VID_IS",
+      "relation": "contains",
+      "target": "IT_TAXPAYER",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_VID_IS",
+      "relation": "contains",
+      "target": "IT_PERSONAL_DATA",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_CSDD",
+      "relation": "contains",
+      "target": "IT_VEHICLE_OWNER",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_DVS",
+      "relation": "supports",
+      "target": "EV_DUTY_DOCS",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_DVS",
+      "relation": "supports",
+      "target": "EV_LEGAL_REGIME",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_EMAIL",
+      "relation": "supports",
+      "target": "EV_EMAIL",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_PHONE",
+      "relation": "supports",
+      "target": "EV_PHONE_CALLS",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_PHONE",
+      "relation": "supports",
+      "target": "EV_SMS_CHAT",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_WHATSAPP",
+      "relation": "supports",
+      "target": "EV_SMS_CHAT",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_SIGNAL",
+      "relation": "supports",
+      "target": "EV_SMS_CHAT",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_MESSENGER",
+      "relation": "supports",
+      "target": "EV_SMS_CHAT",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "SRC_LURSOFT",
+      "relation": "relevant_to",
+      "target": "DA_PUBLIC_INFO",
+      "explanation": "Informācijas avota saistība ar aizsargāto ziņu vai pierādījumu tipu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_VID",
+      "relation": "uses",
+      "target": "SRC_VID_IS",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_VID",
+      "relation": "uses",
+      "target": "SRC_DVS",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_POLICE",
+      "relation": "uses",
+      "target": "SRC_SODU",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_POLICE",
+      "relation": "uses",
+      "target": "SRC_PMLP",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_PROSECUTION",
+      "relation": "uses",
+      "target": "SRC_SODU",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_COURTS",
+      "relation": "uses",
+      "target": "SRC_TIS",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_BORDER",
+      "relation": "involves",
+      "target": "IT_BORDER_CUSTOMS",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_CSDD",
+      "relation": "uses",
+      "target": "SRC_CSDD",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    },
+    {
+      "source": "ORG_PROCUREMENT",
+      "relation": "involves",
+      "target": "IT_PROCUREMENT",
+      "explanation": "Iestādes tipiskā saikne ar informācijas avotu vai informācijas priekšmetu.",
+      "strength": "supporting",
+      "source_basis": ""
+    }
+  ],
+  "competency_questions": [
+    {
+      "id": "CQ1",
+      "question": "Vai konkrētā ziņa ir KL 329 priekšmets?",
+      "answer_logic": "Atbildi veido IT_* kategorija + EV_LEGAL_REGIME + normatīvais/iekšējais režīms."
+    },
+    {
+      "id": "CQ2",
+      "question": "Vai pierādīta izpaušana, nevis tikai piekļuve?",
+      "answer_logic": "Jāmeklē EL_ACT un pierādījumi EV_PHONE_CALLS/EV_SMS_CHAT/EV_EMAIL/EV_WITNESSES/EV_SYSTEM_FUNCTION."
+    },
+    {
+      "id": "CQ3",
+      "question": "Vai amatpersona bija brīdināta vai atbildīga par glabāšanu?",
+      "answer_logic": "Jāmeklē EV_DUTY_DOCS, DVS iepazīšanās, amata apraksts, likuma norma."
+    },
+    {
+      "id": "CQ4",
+      "question": "Vai publiska pieejamība var būt aizstāvība?",
+      "answer_logic": "Parasti tikai tad, ja precīzā ziņu kombinācija bija publiski pieejama un nav izmantots dienesta resursu režīms; citādi Senāts to noraida."
+    },
+    {
+      "id": "CQ5",
+      "question": "Vai operatīvie pierādījumi ir pieļaujami?",
+      "answer_logic": "Jāvērtē pasākuma pamats, tiesneša akcepts, datu nodošanas ķēde, samērīgums un KL 329 klasifikācija konkrētajā laikā."
+    },
+    {
+      "id": "CQ6",
+      "question": "Vai piemērojams KL 318, nevis KL 329?",
+      "answer_logic": "Ja izpaušana ir daļa no dienesta ļaunprātības ar būtisku kaitējumu, jāvērtē normu konkurence."
+    },
+    {
+      "id": "CQ7",
+      "question": "Vai lūgums iegūt informāciju ir uzkūdīšana?",
+      "answer_logic": "Jāvērtē lūguma konkrētība, nodotie identifikācijas dati un lūdzēja izpratne par informācijas dienesta avotu."
+    }
+  ]
+}
