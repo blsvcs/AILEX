@@ -1,0 +1,1 @@
+KL329 specializēts prompts: analizē neizpaužamu ziņu statusu, izpaušanas faktu, amatpersonas statusu, pierādījumus, Senāta atziņas un aizstāvības argumentus. Izveido riska novērtējumu un līdzīgo lietu sarakstu.
