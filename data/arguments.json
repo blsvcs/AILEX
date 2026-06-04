@@ -1,0 +1,122 @@
+[
+  {
+    "argument_id": "ARG001",
+    "side": "defence",
+    "argument": "Informācija bija publiski pieejama",
+    "typical_result": "often_rejected",
+    "linked_theses": "TH001;TH002",
+    "linked_findings": "FIND006",
+    "linked_cases": "SKK-25/2019;GC001",
+    "practical_use": "Jāpierāda konkrēta sakritība ar izpausto saturu un avotu."
+  },
+  {
+    "argument_id": "ARG002",
+    "side": "defence",
+    "argument": "Nav pierādīta izpaušana, tikai piekļuve",
+    "typical_result": "context_dependent",
+    "linked_theses": "TH003;TH017",
+    "linked_findings": "FIND004;FIND013",
+    "linked_cases": "GC011;GC013",
+    "practical_use": "Ļoti svarīgs, ja ir tikai auditācijas dati bez nodošanas pierādījuma."
+  },
+  {
+    "argument_id": "ARG003",
+    "side": "defence",
+    "argument": "Nav pierādīts neizpaužamo ziņu statuss",
+    "typical_result": "strong_if_supported",
+    "linked_theses": "TH006;TH007",
+    "linked_findings": "FIND001;FIND005",
+    "linked_cases": "SKK-J-221/2020;GC003",
+    "practical_use": "Jāprasa konkrēts normatīvais pamats, brīdinājums vai aprites kārtība."
+  },
+  {
+    "argument_id": "ARG004",
+    "side": "defence",
+    "argument": "Persona rīkojās amata pienākumu ietvaros",
+    "typical_result": "strong_if_supported",
+    "linked_theses": "TH012;TH013",
+    "linked_findings": "FIND020",
+    "linked_cases": "SKK-28/2023;GC004",
+    "practical_use": "Jāparāda tiesisks darba vai procesa mērķis."
+  },
+  {
+    "argument_id": "ARG005",
+    "side": "defence",
+    "argument": "Nav pierādīts nodoms",
+    "typical_result": "context_dependent",
+    "linked_theses": "TH018",
+    "linked_findings": "FIND007",
+    "linked_cases": "GC001;GC011",
+    "practical_use": "Jāanalizē zināšanas par informācijas statusu, brīdinājumi un konteksts."
+  },
+  {
+    "argument_id": "ARG006",
+    "side": "defence",
+    "argument": "Nav radies kaitējums",
+    "typical_result": "usually_weak",
+    "linked_theses": "TH003;TH019",
+    "linked_findings": "FIND003",
+    "linked_cases": "SKK-313/2022;GC002",
+    "practical_use": "Var palīdzēt soda vai maznozīmīguma līmenī, bet parasti neizslēdz sastāvu."
+  },
+  {
+    "argument_id": "ARG007",
+    "side": "defence",
+    "argument": "Nav identificēts adresāts",
+    "typical_result": "strong_if_no_recipient",
+    "linked_theses": "TH017",
+    "linked_findings": "FIND004",
+    "linked_cases": "GC011;GC015",
+    "practical_use": "Nozīmīgs, ja apsūdzība balstās tikai uz piekļuvi sistēmai."
+  },
+  {
+    "argument_id": "ARG008",
+    "side": "defence",
+    "argument": "Pierādījumi iegūti vai vērtēti nepilnīgi",
+    "typical_result": "context_dependent",
+    "linked_theses": "TH018",
+    "linked_findings": "FIND004;FIND014;FIND015",
+    "linked_cases": "GC015",
+    "practical_use": "Jāpārbauda ierīču apskate, sarakstes konteksts, metadati un pierādījumu ķēde."
+  },
+  {
+    "argument_id": "ARG009",
+    "side": "prosecution",
+    "argument": "Persona bija valsts amatpersona vai cita KL329 subjekta persona",
+    "typical_result": "must_prove",
+    "linked_theses": "TH018",
+    "linked_findings": "FIND008",
+    "linked_cases": "GC001;GC004",
+    "practical_use": "Jāpievieno amata apraksts, statuss un pienākums neizpaust."
+  },
+  {
+    "argument_id": "ARG010",
+    "side": "prosecution",
+    "argument": "Informācija iegūta no dienesta sistēmas",
+    "typical_result": "strong_with_audit",
+    "linked_theses": "TH010;TH012",
+    "linked_findings": "FIND011;FIND013",
+    "linked_cases": "GC004;GC011;GC013",
+    "practical_use": "Auditācijas dati palīdz pierādīt avotu un piekļuves brīdi."
+  },
+  {
+    "argument_id": "ARG011",
+    "side": "prosecution",
+    "argument": "Komunikācijas saturs pierāda nodošanu",
+    "typical_result": "strong_if_authentic",
+    "linked_theses": "TH003;TH014;TH015",
+    "linked_findings": "FIND014;FIND015;FIND017",
+    "linked_cases": "GC011;GC015",
+    "practical_use": "WhatsApp, Signal, SMS vai e-pasts var sasaistīt saturu, personu, adresātu un laiku."
+  },
+  {
+    "argument_id": "ARG012",
+    "side": "prosecution",
+    "argument": "Persona bija brīdināta vai pēc likuma atbildīga par ziņu glabāšanu",
+    "typical_result": "must_prove",
+    "linked_theses": "TH007;TH018",
+    "linked_findings": "FIND005;FIND008",
+    "linked_cases": "GC001;GC004",
+    "practical_use": "Jāpievieno brīdinājums, iekšējie noteikumi vai normatīvais pamats."
+  }
+]
